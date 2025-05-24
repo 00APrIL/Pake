@@ -12,5 +12,17 @@
   },
   "build": {
     "frontendDist": "../dist"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "WeRead",
+        "width": 1024,
+        "height": 768,
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": false   // <== 关键：隐藏窗口顶部标题栏
+      }
+    ]
   }
 }
